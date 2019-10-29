@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:ui_form>
+	<center>
+	<h1>Modify Asset Class on Model Category</h1><br />
+	<table>
+		<tbody>
+			<tr>
+				<td>Model Category</td>
+				<td style="width:300px;"><g:ui_reference name="model_ref_field" query="" table="cmdb_model_category"  /></td>
+			</tr>
+			<tr>
+				<td>Asset Class</td>
+				<td><input type="text" name="asset_class" id="asset_class" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><g:dialog_buttons_ok_cancel ok="return true" /></td>
+			</tr>
+		</tbody>
+	</table>
+	</center>
+</g:ui_form>
+</j:jelly>
